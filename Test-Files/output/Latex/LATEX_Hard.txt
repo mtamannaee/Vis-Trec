@@ -1,0 +1,10 @@
+\begin{tabular}{lr}
+\hline
+                &   Hard Queries (map) \\
+\hline
+ run-ql.adhoc   &            0.0361872 \\
+ run-bm25.adhoc &            0.034441  \\
+ run-rm.adhoc   &            0.0347821 \\
+ run-sdm.adhoc  &            0.0333487 \\
+\hline
+\end{tabular}

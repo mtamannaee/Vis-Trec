@@ -1,0 +1,10 @@
+\begin{tabular}{lr}
+\hline
+                   &   All Queries (map) \\
+\hline
+ run-ql-TREC.txt   &           0.09975   \\
+ run-bm25-TREC.txt &           0.101338  \\
+ run-rm-TREC.txt   &           0.0975404 \\
+ run-sdm-TREC.txt  &           0.0973654 \\
+\hline
+\end{tabular}
