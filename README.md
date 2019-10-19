@@ -20,7 +20,8 @@ Result files remain safe in their own directory named after the timestamp the tr
 
 ## Plotting the IR system performance
 ### GUI
-### Evaluation and Visualizations:
+<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="100%" width="100%">
+### Evaluation and Visualizations
 #### Plot Type 1
 #### Plot Type 2
 #### Plot Type 3
