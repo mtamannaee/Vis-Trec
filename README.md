@@ -19,13 +19,12 @@ Result files remain safe in their own directory named after the timestamp the tr
 </p>
 
 ## Plotting the IR system performance
-### GUI
-<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="100%" width="100%">
-### Evaluation and Visualizations
-#### Plot Type 1
-#### Plot Type 2
-#### Plot Type 3
-#### Plot Type 4
+## GUI
+## Evaluation and Visualizations
+## Plot Type 1
+## Plot Type 2
+## Plot Type 3
+## Plot Type 4
 
 <p align="center">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="100%" width="100%">
@@ -37,7 +36,7 @@ Vis-Trec sorts the queries based on the measured metric e.g, map values and  dra
 <p align="center">
 <img src="  https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/All%20Queries%20Representation/run-bm25-ALL.png" height="50%" width="50%">
 </p>
-## Plot Type 2
+
 <p align="left">
 Based on the given sequence of  percentages, the sorted queries get divided into groups. The series of the percentages get defined by the user. For each category, the average values get calculated for each percentile category  based on the measured metric values the sorted queries belonging to that percentile category. This feature provides a better insight on retrieval method performance inconsistency i.e, different retrieval method performance varies on different query difficulty range as it is shown in Figure bellow:
  </p>
