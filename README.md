@@ -19,17 +19,11 @@ Result files remain safe in their own directory named after the timestamp the tr
 </p>
 
 ## Plotting the IR system performance
-
 ### GUI
 <p align="center">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="100%" width="100%">
  </p> 
 ### Evaluation and Visualizations:
-
-
-
-B:
-
 #### Plot Type 1
 Vis-Trec sorts the queries based on the measured metric e.g, map values and  draws barplots indicating the sorted queries measured values in order. This method provides the visualization of the system-method over all queries as they are  ordered by their measured metric values for convenient interpretation.  All the runs’ performance can be compared on each query separately to the given selected baseline as it is shown in Figure bellow:
 <p align="center">
@@ -44,7 +38,7 @@ Based on the given sequence of  percentages, the sorted queries get divided into
  <p align="center">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/run-ql-Hard.png" height="50%" width="50%">
 </p>
- #### Plot Type 4
+#### Plot Type 4
 <p align="center">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/map-Hard%25.png" height="50%" width="50%">
 </p>
