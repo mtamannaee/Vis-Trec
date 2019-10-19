@@ -23,7 +23,16 @@ Result files remain safe in their own directory named after the timestamp the tr
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/All%20Queries%20Representation/map-ALL%25.png" height="50%" width="50%">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/map-Hard%25.png" height="50%" width="50%">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/run-ql-Hard.png" height="50%" width="50%">
-<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Latex/LaTex%20Code%20%26%20Table.png" height="50%" width="50%">
-  
 </p>
+
+<p align="left">
+Table Generator in Latex
+Considering the fact that the results of analysis for the run files given by the user and the metric measured values derived from the trec_eval() function gets generated, compared, and further analysed by this application, the LaTeX code of a table including those results could be quite helpful for researchers to gather the results in a format that could be easily implanted into their documentation. Generating the laTeX code in same platform as the results are generated decreasea the chance of error caused by  human error in transferring numbers. To this aim, this option has been provided that  the final results get published in LaTex format printed as shown in Figure bellow:
+</p> 
+
+<p align="center">
+<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Latex/LaTex%20Code%20%26%20Table.png" height="50%" width="50%">
+</p>
+  
+
 
