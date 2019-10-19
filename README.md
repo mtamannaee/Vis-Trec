@@ -23,7 +23,7 @@ Result files remain safe in their own directory named after the timestamp the tr
 <p align="center">
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="100%" width="100%">
  </p> 
-Evaluation and Visualizations:
+## Evaluation and Visualizations:
 ## Plot Type 1
 Vis-Trec sorts the queries based on the measured metric e.g, map values and  draws barplots indicating the sorted queries measured values in order. This method provides the visualization of the system-method over all queries as they are  ordered by their measured metric values for convenient interpretation.  All the runs’ performance can be compared on each query separately to the given selected baseline as it is shown in Figure bellow:
 <p align="center">
