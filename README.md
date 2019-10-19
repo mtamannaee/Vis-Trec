@@ -32,7 +32,7 @@ Considering the fact that the results of analysis for the run files given by the
 </p> 
 
 <p align="center">
-<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Latex/LaTex%20Code%20%26%20Table.png" height="50%" width="50%">
+<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Latex/LaTex%20Code%20%26%20Table.png" height="70%" width="70%">
 </p>
   
 
