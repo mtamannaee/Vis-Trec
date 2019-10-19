@@ -3,13 +3,14 @@
 </p>
 
 # Vis-Trec
+## Abstract 
 <p align="left">
 Vis-Trec, Visualization tool as the extension of Trec_eval tool to facilitate researchers in the IR task evaluation and visualization step.
 In general Vis-Trec conducts 4 types of analysis and visualizations the analysis in order to avoid time-consuming repetitive task in IR domain for researchers. Plot type 1 i.e, Help-Hurt visualization of the analysis over baseline’s ranked and query percentiles for both ALL queries and defined Hard queries and plot type 2  i.e  visualization of the analysis over baseline’s ranked query percentiles for both ALL and HARD queries . Mor over, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a Latex table which code can easily get generated and printed within a text file in the specified directory by Vis-Trec. 
 </p>
 
-<p align="left">
-Requirements and Experimental Setup 
+## Requirements and Experimental Setup
+<p align="left"> 
 This application is coded in python. Runs trec-eval() and gathers the results files. Calculate the results of the IR metrics. Plots the analysis and stores the figures within the created directory.
 Eliminates the need of re-evaluating and re-calculating the results for further analysis 
 Maintaining the run files and results within the desired directory chosen by the user.
@@ -25,8 +26,8 @@ Result files remain safe in their own directory named after the timestamp the tr
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/run-ql-Hard.png" height="50%" width="50%">
 </p>
 
+## Table Generator in Latex
 <p align="left">
-Table Generator in Latex
 Considering the fact that the results of analysis for the run files given by the user and the metric measured values derived from the trec_eval() function gets generated, compared, and further analysed by this application, the LaTeX code of a table including those results could be quite helpful for researchers to gather the results in a format that could be easily implanted into their documentation. Generating the laTeX code in same platform as the results are generated decreasea the chance of error caused by  human error in transferring numbers. To this aim, this option has been provided that  the final results get published in LaTex format printed as shown in Figure bellow:
 </p> 
 
