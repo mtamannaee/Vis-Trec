@@ -20,7 +20,7 @@ https://youtu.be/OVJiRS8t9jQ
 
 # Common Problems/Questions:
 
-__ 1. The GUI looks too small/large.__
+** 1. The GUI looks too small/large.**
 ___ Why is that happening?___
 In case you are useing Desplying Server (eg. X11 forwarding using Xming) , the render size of  fonts on Windows is different from the render size on a Linux ; which may compress or enlarge the fonts on client application(your Computer). remote client applications rendered by Xming may display with smaller or larger fonts than you expect. 
 For more details please refer to th efollowing link: http://www.straightrunning.com/XmingNotes/fonts.php 
