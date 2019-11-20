@@ -20,25 +20,25 @@ https://youtu.be/OVJiRS8t9jQ
 
 # Common Problems/Questions:
 
-** 1. The GUI looks too small/large.**
-___ Why is that happening?___
+### 1. The GUI looks too small/large.
+#### Why is that happening?
 In case you are useing Desplying Server (eg. X11 forwarding using Xming) , the render size of  fonts on Windows is different from the render size on a Linux ; which may compress or enlarge the fonts on client application(your Computer). remote client applications rendered by Xming may display with smaller or larger fonts than you expect. 
 For more details please refer to th efollowing link: http://www.straightrunning.com/XmingNotes/fonts.php 
-___ How can I fix it? ___
+#### How can I fix it? 
 You can adjust the fonts and their sizes on the client application by configuration on the remote host to fix a problem on the local display. You can adjust the fonts and the sizes the way you wish useing the python template file provided on this link : 
 http://www.straightrunning.com/XmingNotes/mkfontalias.py
 
-__ 2. When I try to run trec_eval() on server , I get "permission denied" command-line error.__
-___ Why is that happening?___
+### 2. When I try to run trec_eval() on server , I get "permission denied" command-line error.
+#### Why is that happening?
 Since this application will run the trec_eval.c code, you need to make sure have the c compiler and the "execution permission" if you are running it on the server UNIX based environment.
-___ How can I fix it?___
+#### How can I fix it?
 To give execution permission in UNIX you can use this command “chmod +x filename”.
 
-__ 3. I use Python 3.7, when I try to run Vis-Trec, It gives me error.__
-___ Why is that happening?___
+### 3. I use Python 3.7, when I try to run Vis-Trec, It gives me error.
+#### Why is that happening?
 This program is written with Python 3.6 verion.  The error hapends because the Python3.7 is has its own version of Tcl and Tk.
 when we run the pyhton file a test on the path of the Tcl and Tk library will fail and causes errors.
-___ How can I fix it?___
+#### How can I fix it?
 Update to Python 3.6. Some usefull links of updating to Python 3.6 :
 * Ubuntu : http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/
 * Windows: Go to Python Official Download Website (https://www.python.org/downloads/), download and install the exe file.
