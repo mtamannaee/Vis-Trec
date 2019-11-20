@@ -39,12 +39,10 @@ Based on the given sequence of  percentages, the sorted queries get divided into
 </p>
 
  <p align="center">
- PLOT TYPE 3
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/run-ql-Hard.png" height="50%" width="50%">
 </p>
 
 <p align="center">
- PLOT TYPE 4
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/map-Hard%25.png" height="50%" width="50%">
 </p>
 
