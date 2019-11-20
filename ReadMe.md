@@ -28,11 +28,11 @@ For more details please refer to th efollowing link: http://www.straightrunning.
 You can adjust the fonts and their sizes on the client application by configuration on the remote host to fix a problem on the local display. You can adjust the fonts and the sizes the way you wish useing the python template file provided on this link : 
 http://www.straightrunning.com/XmingNotes/mkfontalias.py
 
-### 2. When I try to run trec_eval() on server , I get "permission denied" command-line error.
+### 2. When I try to run trec_eval() on server , I get __"permission denied"__ command-line error.
 #### Why is that happening?
 Since this application will run the trec_eval.c code, you need to make sure have the c compiler and the "execution permission" if you are running it on the server UNIX based environment.
 #### How can I fix it?
-To give execution permission in UNIX you can use this command “chmod +x filename”.
+To give execution permission in UNIX you can use this command ___“chmod +x filename”___.
 
 ### 3. I use Python 3.7, when I try to run Vis-Trec, It gives me error.
 #### Why is that happening?
