@@ -12,17 +12,17 @@ In general Vis-Trec conducts 4 types of analysis and visualizations the analysis
 
 # How To Start?
 ## Quick List
-1. This application works on Python 3.6 . This version has a builtin graphical library Tkinter. 
+1. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
 2. If you are using Unix, you have to forward the application via SSH X11 forwarding. 
-3. There are  libraries that you need to download and import :  numpy, matplotlib, and  tabulate
-4. Full Tutorial on how to use this application on this link :
+3. There are  libraries that you need to download and import :  __numpy__, __matplotlib__, and __tabulate__
+4. Full youtube Tutorial on how to use this application on this link :
 https://youtu.be/OVJiRS8t9jQ
 
-# FAQ:
+# FAQ
 
 ### 1. The GUI looks too small/large.
 #### Why is that happening?
-In case you are useing Desplying Server (eg. X11 forwarding using Xming) , the render size of  fonts on Windows is different from the render size on a Linux ; which may compress or enlarge the fonts on client application(your Computer). remote client applications rendered by Xming may display with smaller or larger fonts than you expect. 
+In case you are useing Desplying Server (eg. X11 forwarding using Xming) , the render size of  fonts on Windows is different from the render size on a Linux ; which may compress or enlarge the fonts on client application (your Computer). remote client applications rendered by Xming may display with smaller or larger fonts than you expect. 
 For more details please refer to th efollowing link: http://www.straightrunning.com/XmingNotes/fonts.php 
 #### How can I fix it? 
 You can adjust the fonts and their sizes on the client application by configuration on the remote host to fix a problem on the local display. You can adjust the fonts and the sizes the way you wish useing the python template file provided on this link : 
@@ -40,7 +40,7 @@ This program is written with Python 3.6 verion.  The error hapends because the P
 when we run the pyhton file a test on the path of the Tcl and Tk library will fail and causes errors.
 #### How can I fix it?
 Update to Python 3.6. Some usefull links of updating to Python 3.6 :
-* Ubuntu : http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/
-* Windows: Go to Python Official Download Website (https://www.python.org/downloads/), download and install the exe file.
-* Mac OS X: Go to Python Official Download Page(https://www.python.org/downloads/), download Mac OS X and install it.
+* __Ubuntu :__ http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/
+* __Windows :__ Go to Python Official Page(https://www.python.org/downloads/), download and install the exe file.
+* __Mac OS X :__ Go to Python Official Page(https://www.python.org/downloads/), download Mac OS X and install it.
 
