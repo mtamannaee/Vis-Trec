@@ -42,7 +42,7 @@ when we run the pyhton file a test on the path of the Tcl and Tk library will fa
 ### How can I fix it?
 Update to Python 3.6 
 Some usefull links of updating to Python 3.6 :
- To install Python 3.6 Ubuntu : http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/
- To install in Windows: Go to Python Official Download Website (https://www.python.org/downloads/), download and install the exe file.
- To install in Mac OS X:Go to Python Official Download Page(https://www.python.org/downloads/), download Mac OS X and install it.
+<p>To install Python 3.6 Ubuntu : http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/</p>
+<p>To install in Windows: Go to Python Official Download Website (https://www.python.org/downloads/), download and install the exe file</p>
+<p>To install in Mac OS X:Go to Python Official Download Page(https://www.python.org/downloads/), download Mac OS X and install it.</p>
 
