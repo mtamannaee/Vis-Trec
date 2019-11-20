@@ -21,13 +21,13 @@ https://youtu.be/OVJiRS8t9jQ
 
 # Common Problems/Questions:
 
-## 1. The GUI looks small, how can I adjust it?
-### why is that happening?
+## 1. The GUI looks too small/large, how can I adjust it?
+### Why is that happening?
 In case you are useing Desplying Server (eg. X11 forwarding using Xming) , the render size of  fonts on Windows is different from the render size on a Linux ; which may compress or enlarge the fonts on client application(your Computer). remote client applications rendered by Xming may display with smaller or larger fonts than you expect. 
 For more details please refer to th efollowing link: http://www.straightrunning.com/XmingNotes/fonts.php 
-### How to fix it?
+### How can I fix it?
 You can adjust the fonts and their sizes on the client application by configuration on the remote host to fix a problem on the local display. You can adjust the fonts and the sizes the way you wish useing the python template file provided on this link : 
 http://www.straightrunning.com/XmingNotes/mkfontalias.py
 
-
+## 2. Problem2 ?
 
