@@ -17,9 +17,8 @@
 1. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
 2. If you are using Unix, you have to forward the application via SSH X11 forwarding. 
 3. There are  libraries that you need to download and import :  __numpy__, __matplotlib__, and __tabulate__
-#### What is Vis-Trec? Where can I get it? How to set up?
-Full youtube tutorial on how to use this application on this link :
-https://youtu.be/OVJiRS8t9jQ
+**What is Vis-Trec? Where can I get it? How to set up?**
+* Full youtube tutorial on how to use this application on this link : https://youtu.be/OVJiRS8t9jQ
 
 ## Vis-Trec Application Steps<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
 ### Step 1 : trec_eval Compilation 
