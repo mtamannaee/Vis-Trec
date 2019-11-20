@@ -10,10 +10,6 @@ __Help-Hurt visualization__ of the analysis over baseline’s ranked and query p
 __Visualization__ of the analysis over baseline’s ranked query __percentiles__ for both __ALL__ and __HARD__ queries. 
 Moreover, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a __LaTEX table__ which code can easily get generated and printed within a text file in the specified directory by Vis-Trec. 
 
-<p align="center">
-<img src="  https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/All%20Queries%20Representation/run-bm25-ALL.png" height="50%" width="50%">
-</p>
-
 # How To Start?
 ## Setup Check-List
 1. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
