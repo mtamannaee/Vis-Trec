@@ -6,10 +6,10 @@
 # What is Vis-Trec?
 Vis-Trec, Visualization tool as the extension of Trec_eval tool to facilitate researchers in the IR task evaluation and visualization step.
 In general Vis-Trec conducts 4 types of analysis and visualizations the analysis.
-__Help-Hurt visualization__ of the analysis over baseline’s ranked and query percentiles for both __ALL__ queries and defined __Hard__ queries. (__Plot type 1__ i.e)
-__Visualization__ of the analysis over baseline’s ranked query __percentiles__ for both __ALL__ and __HARD__ queries. (__plot type 2__ i.e)
-
+__Help-Hurt visualization__ of the analysis over baseline’s ranked and query percentiles for both __ALL__ queries and defined __Hard__ queries.
+__Visualization__ of the analysis over baseline’s ranked query __percentiles__ for both __ALL__ and __HARD__ queries. 
 Moreover, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a __LaTEX table__ which code can easily get generated and printed within a text file in the specified directory by Vis-Trec. 
+
 
 
 # How To Start?
@@ -22,6 +22,9 @@ Full youtube Tutorial on how to use this application on this link :
 https://youtu.be/OVJiRS8t9jQ
 
 ## Vis-Trec Application Steps
+<p align="center">
+<img src="  https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/All%20Queries%20Representation/run-bm25-ALL.png" height="50%" width="50%">
+</p>
 ### Step 1 : trec_eval Compilation 
 ####  Window A  : trec_eval() Compilation
 ### Step 2 : All Queries Plots + LaTex + All Systems Plots 
