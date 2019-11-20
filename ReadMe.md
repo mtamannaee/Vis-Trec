@@ -2,7 +2,6 @@
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/ls3lab_logo3.png" height="25%" width="25%">
 </p>
 
-# Vis-Trec READ-ME
 # What is Vis-Trec?
 **Vis-Trec, Visualization tool as the extension of Trec_eval tool to facilitate researchers in the IR task evaluation and visualization step.**
 ***In general Vis-Trec conducts 4 types of analysis and visualizations the analysis.***
