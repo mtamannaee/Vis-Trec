@@ -13,15 +13,27 @@ Moreover, considering the user’s selected metric of measurement, the measured 
 
 
 # How To Start?
-## Quick List
+## Setup Check-List
 1. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
 2. If you are using Unix, you have to forward the application via SSH X11 forwarding. 
 3. There are  libraries that you need to download and import :  __numpy__, __matplotlib__, and __tabulate__
-4. Full youtube Tutorial on how to use this application on this link :
+### What is Vis-Trec? Where can I get it? How to set up?
+Full youtube Tutorial on how to use this application on this link :
 https://youtu.be/OVJiRS8t9jQ
 
-# FAQ
+## Vis-Trec Application Steps
+### Step 1 : trec_eval Compilation 
+####  Window A  : trec_eval() Compilation
+### Step 2 : All Queries Plots + LaTex + All Systems Plots 
+####  Window B  : All Queries Help Hurt Plots + LaTex
+####  Window C  : Query Percentiles on All systems
+### Step 3 : Hard Queries ID + HQ Help-Hurt Plots + Latex + HQ All Systems
+####  Window D  : Hard Queries Identification
+####  Window E  : Hard Queries Help Hurt Plots + Latex
+####  Window F  : Hard Query Percentiles on All systems
 
+
+# FAQ
 ### 1. The GUI looks too small/large.
 #### Why is that happening?
 In case you are useing Desplying Server (eg. X11 forwarding using Xming) , the render size of  fonts on Windows is different from the render size on a Linux ; which may compress or enlarge the fonts on client application (your Computer). remote client applications rendered by Xming may display with smaller or larger fonts than you expect. 
