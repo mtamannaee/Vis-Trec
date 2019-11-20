@@ -17,6 +17,8 @@
 1. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
 2. If you are using Unix, you have to forward the application via SSH X11 forwarding. 
 3. There are  libraries that you need to download and import :  __numpy__, __matplotlib__, and __tabulate__
+4. Download all four files within same directory : https://github.com/mtamannaee/Vis-Trec/tree/master/Vis-Trec
+5. Download the LS3 Logo and include it within same directory : 
 
 * *What is Vis-Trec? Where can I get it? How to set up?*
 * Full youtube tutorial on how to use this application on this link : https://youtu.be/OVJiRS8t9jQ
