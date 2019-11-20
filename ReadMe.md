@@ -4,11 +4,13 @@
 
 # Vis-Trec READ-ME
 # What is Vis-Trec?
-<p>
 Vis-Trec, Visualization tool as the extension of Trec_eval tool to facilitate researchers in the IR task evaluation and visualization step.
-This software is developed to help researchers to have a better visualization  of Trec_eval resutls.With this software you can easily evaluate your ad hoc retrieval results for any Collection. 
-In general Vis-Trec conducts 4 types of analysis and visualizations the analysis in order to avoid time-consuming repetitive task in IR domain for researchers. Plot type 1 i.e, Help-Hurt visualization of the analysis over baseline’s ranked and query percentiles for both ALL queries and defined Hard queries and plot type 2  i.e  visualization of the analysis over baseline’s ranked query percentiles for both ALL and HARD queries . Mor over, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a Latex table which code can easily get generated and printed within a text file in the specified directory by Vis-Trec. 
-</p>
+In general Vis-Trec conducts 4 types of analysis and visualizations the analysis.
+__Help-Hurt visualization__ of the analysis over baseline’s ranked and query percentiles for both __ALL__ queries and defined __Hard__ queries. (__Plot type 1__ i.e)
+__Visualization__ of the analysis over baseline’s ranked query __percentiles__ for both __ALL__ and __HARD__ queries. (__plot type 2__ i.e)
+
+Moreover, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a __LaTEX table__ which code can easily get generated and printed within a text file in the specified directory by Vis-Trec. 
+
 
 # How To Start?
 ## Quick List
