@@ -46,7 +46,7 @@ Based on the given sequence of  percentages, the sorted queries get divided into
 <img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Test-Files/output/Plots/Hard%20Queries%20Representation/map-Hard%25.png" height="50%" width="50%">
 </p>
 
-## Table Generator in Latex
+## LATEX Table Generation 
 <p align="left">
 Considering the fact that the results of analysis for the run files given by the user and the metric measured values derived from the trec_eval() function gets generated, compared, and further analysed by this application, the LaTeX code of a table including those results could be quite helpful for researchers to gather the results in a format that could be easily implanted into their documentation. Generating the laTeX code in same platform as the results are generated decreasea the chance of error caused by  human error in transferring numbers. To this aim, this option has been provided that  the final results get published in LaTex format printed as shown in Figure bellow:
 </p> 
