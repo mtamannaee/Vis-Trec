@@ -21,8 +21,7 @@
 Full youtube tutorial on how to use this application on this link :
 https://youtu.be/OVJiRS8t9jQ
 
-## Vis-Trec Application Steps
-<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
+## Vis-Trec Application Steps<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
 ### Step 1 : trec_eval Compilation 
 ####  Window A  : trec_eval() Compilation
 ### Step 2 : All Queries Plots + LaTex + All Systems Plots 
