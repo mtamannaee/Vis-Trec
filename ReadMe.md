@@ -10,7 +10,7 @@ __Help-Hurt visualization__ of the analysis over baseline’s ranked and query p
 __Visualization__ of the analysis over baseline’s ranked query __percentiles__ for both __ALL__ and __HARD__ queries. 
 Moreover, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a __LaTEX table__ which code can easily get generated and printed within a text file in the specified directory by Vis-Trec.
 
-![alternativetext](<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/ls3lab_logo3.png" height="25%" width="25%">
+![alternativetext](<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="25%" width="25%">
 .png)
 
 # How To Start?
