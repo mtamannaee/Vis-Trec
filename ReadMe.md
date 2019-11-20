@@ -12,10 +12,9 @@ In general Vis-Trec conducts 4 types of analysis and visualizations the analysis
 
 # How To Start?
 ## Quick List
-1. This application works on Python3 . 
+1. This application works on Python 3.6 . This version has a builtin graphical library Tkinter. 
 2. If you are using Unix, you have to forward the application via SSH X11 forwarding. 
-3. These libraries have to be installed before using this application : 
--tkinter  -math   -operator   -collections  -os   -shutil   -tabulate   -datetime   -piperclip    -numpy    -matplotlib
+3. There are  libraries that you need to download and import :  numpy, matplotlib, and  tabulate
 4. Full Tutorial on how to use this application on this link :
 https://youtu.be/OVJiRS8t9jQ
 
