@@ -18,7 +18,7 @@ In general Vis-Trec conducts 4 types of analysis and visualizations the analysis
 4. Full Tutorial on how to use this application on this link :
 https://youtu.be/OVJiRS8t9jQ
 
-# Common Problems/Questions:
+# FAQ:
 
 ### 1. The GUI looks too small/large.
 #### Why is that happening?
