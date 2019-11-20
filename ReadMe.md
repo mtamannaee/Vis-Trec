@@ -14,10 +14,11 @@
 
 # How To Start?
 ## Setup Check-List
-1. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
-2. If you are using Unix, you have to forward the application via SSH X11 forwarding. 
-3. There are  libraries that you need to download and import :  __numpy__, __matplotlib__, and __tabulate__
-4. Download all four files from this link and save them within a same directory : https://github.com/mtamannaee/Vis-Trec/tree/master/Vis-Trec
+1. This application runs the __trec_eval.c__ __C program__ which requires installation of __C compiler__ on the system.  
+2. This application works on __Python 3.6__ . This version has a builtin graphical library Tkinter. 
+3. If you are using server or UNIX based environment, you have to forward the application via SSH X11 forwarding on a Disply Server. 
+4. There are  libraries that you need to download and import :  __numpy__, __matplotlib__, and __tabulate__
+5. Download all four files from this link and save them within a same directory : https://github.com/mtamannaee/Vis-Trec/tree/master/Vis-Trec
 
 
 * *What is Vis-Trec? Where can I get it? How to set up?*
