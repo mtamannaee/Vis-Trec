@@ -23,8 +23,9 @@
 
 ## Vis-Trec Application Steps<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
 ### Step 1 : trec_eval Compilation 
-####  Window A  : trec_eval() Compilation
+####  Window A  : trec_eval() Compilation 
 *  This application is modeled in a way that takes a __folder of your retrieval run files__ and the TREC’s __relevance file__, it will compile __trec_eval()__ over all your run files and creat TREC results for each file.
+
 * When you are organizing your run files to have them all in the same folder, ___Make sure that you don’t include the relevance file there___. The reason behind that is when the relevance is included within the same folder then the application will consider it as one of the retrieval’s run files. 
 * I can show you the way that is convenient to organize them, I suggest to have a folder named ___“Source”___, within the folder I created ___two nested folders___ named ___“Run”___, and ___“Rel”___. I gather all my retrieval run files within Run folder and I put my relevance file in Rel folder. 
 * The moment you command the application to compile trec_eval, it will take the __compilation timestamp__ and __create a folder__ named as the timestamp, run trec_eval, and __transfer__ all the TREC’s result files into that folder for your convenience.[ ex : 2019-10-14-19-25]
