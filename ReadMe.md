@@ -26,7 +26,7 @@
 ####  Window A  : trec_eval() Compilation
 *  This application is modeled in a way that takes a __folder of your retrieval run files__ and the TREC’s __relevance file__, it will compile __trec_eval()__ over all your run files and creat TREC results for each file. While you are organizing your runs to have them all in the same folder, ___Make sure that you don’t include the relevance file there___. The reason behind that is when the relevance is included within the same folder then the application will consider it as one of the retrieval’s run files. 
 * I can show you the way that is convenient to organize them, I suggest to have a folder named ___“Source”___, within the folder I created ___two nested folders___ named ___“Run”___, and ___“Rel”___. I gather all my retrieval run files within Run folder and I put my relevance file in Rel folder. 
-* The moment you command the application to compile trec_eval, it will take the __compilation timestamp__ and create a folder named as the timestamp, run trec_eval, and __transfer__ all the TREC’s result files into that folder for your convenience.[ ex : 2019-10-14-19-25]
+* The moment you command the application to compile trec_eval, it will take the __compilation timestamp__ and __create a folder__ named as the timestamp, run trec_eval, and __transfer__ all the TREC’s result files into that folder for your convenience.[ ex : 2019-10-14-19-25]
 * We click on __"upload"__ to __select the run folder__ where the run files exist, then we can see the list of run files being uploaded on the GUI. 
 * Then we do the same thing for uploading the __relevance file__. 
 * After that, we can start running the __trec_eval()__ by pushing the button. On the comandline you can see which run files are being analyzed by trec_eval. 
@@ -35,12 +35,35 @@
 
 ### Step 2 : All Queries Plots + LaTex + All Systems Plots 
 ####  Window B  : All Queries Help Hurt Plots + LaTex
-####  Window C  : Query Percentiles on All systems
-### Step 3 : Hard Queries ID + HQ Help-Hurt Plots + Latex + HQ All Systems
-####  Window D  : Hard Queries Identification
-####  Window E  : Hard Queries Help Hurt Plots + Latex
-####  Window F  : Hard Query Percentiles on All systems
+* This step shows how to do the analysis on __trec_eval’s result files__ which were generated as the result of former step. 
+* In this step, we choose ___baseline___ and do relative analysis based on desired ___IR metric___. 
+* One of the results are associated with the baseline retrieval method and we want to consider the relative performance and we __choose__ the ___baseline’s TREC result file__ in Window B. 
+* Then we __choose__ the ___IR Metric__. 
+* By pushing the __plot button__ it will plot the __delta of metric’s values__ for queries, generating the __help and hurt__ query performance analysis showing that the system improved or worsen the queries response. 
+* Once the plotting is done, all the plots get transferred to the __specific folder__ named as __“ALL Queries Representation”__. As you can see the name of the plot images is after the name of the TREC results for each run file. 
+* Now you can have the __code__ of the __LaTex table__ including The __average of numerical values__ represented in the graph by only pressing a button. A __text file__ will be generated in the same directory named as ___LATEX_ALL.txt___ including the code.
 
+####  Window C  : Query Percentiles on All systems
+* Another type of __analysis__ is based on considering the performance of __all systems__ over __query percentiles__ defined by the user. 
+* All we need to do is to __select__ the __baseline’s TREC result file__ and put the __percentages__ indicating the __query percentiles__ in indicated cell and press Plot.
+* This plot will be saved within the same directory named in this format ___“IRMetric-ALL%”___.
+### Step 3 : Hard Queries ID + HQ Help-Hurt Plots + Latex + HQ All Systems
+* ***This Step explains how to identify hard queries by simply choosing the baseline’s TREC’s result files, and selecting the IR metric and putting constraints on the values of that metric. Then do the same analysis and graphing as in the previous step but this time will be only on the hard queries.*** 
+
+####  Window D  : Hard Queries Identification
+* In this window, I am gonna explain how to __identify__ ___hard queries___. 
+* Identifying the Hard queries will be simply done by __choosing__ the __baseline’s TREC’s result files__, and selecting the ___IR metric___ and putting ___constraints___ on the values of that metric. 
+* So we choose the baseline, and select the Metric, and we indicate that we only need the find the queries which their metric’s measured values are ranked as the lowest P%. 
+
+####  Window E  : Hard Queries Help Hurt Plots + Latex
+* Similar to the step 2 we can find the system’s query performance analysis but this time is gonna be only on the __hard queries__ with requirements defined in Window D. 
+* We select the baseline and then we can plot the analysis for each TREC’s result files. 
+* The plot files will be transferred into a folder within the same directory named ___“Hard Queries Representation”___.As you can see the names of the plot images are after the name of the TREC results for each run file. 
+* Now you can have the code of the __LaTex table__ including the __average of numerical values represented__ in the graph by only pressing this button. 
+* A text file will be generated in the same directory named as __"LATEX_HARD.txt"__ including the code.
+####  Window F  : Hard Query Percentiles on All systems
+* Similarly, the other type of analysis is the performance of __all systems__ over __hard query percentiles__. All we need to do is to select the baseline’s TREC result file and put the __percentages__ indicating the __query percentiles__ in the cell and press Plot. 
+* This Plot will be saved within the same directory named in this format __“IRMetric-Hard%”__.
 
 # FAQ
 ### 1. The GUI looks too small/large.
