@@ -10,7 +10,7 @@
 * Moreover, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a __LaTEX table__ which code can easily get generated and printed within a text file in the specified directory by Vis-Trec.
 
 * Full youtube tutorial on how to use this application on this link : https://youtu.be/mp-INKk2FX4
-
+* Any question regarding vis-trec ? Contact us by mtamannaee@ryerson.ca
 
 
 # How To Start?
