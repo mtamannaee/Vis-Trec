@@ -9,6 +9,8 @@
 * __Visualization__ of the analysis over baseline’s ranked query __percentiles__ for both __ALL__ and __HARD__ queries. 
 * Moreover, considering the user’s selected metric of measurement, the measured values for each retrieval gets inserted in a __LaTEX table__ which code can easily get generated and printed within a text file in the specified directory by Vis-Trec.
 
+* Full youtube tutorial on how to use this application on this link : https://youtu.be/mp-INKk2FX4
+
 
 
 # How To Start?
@@ -21,7 +23,6 @@
 
 
 * *What is Vis-Trec? Where can I get it? How to set up?*
-* Full youtube tutorial on how to use this application on this link : https://youtu.be/mp-INKk2FX4
 
 ## Vis-Trec Application Steps<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
 ### Step 1 : trec_eval Compilation 
