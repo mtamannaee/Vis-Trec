@@ -21,7 +21,7 @@
 
 
 * *What is Vis-Trec? Where can I get it? How to set up?*
-* Full youtube tutorial on how to use this application on this link : https://youtu.be/OVJiRS8t9jQ
+* Full youtube tutorial on how to use this application on this link : https://youtu.be/mp-INKk2FX4
 
 ## Vis-Trec Application Steps<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
 ### Step 1 : trec_eval Compilation 
