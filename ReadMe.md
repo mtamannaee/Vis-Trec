@@ -22,7 +22,6 @@
 5. Download all four files from this link and save them within a same directory : https://github.com/mtamannaee/Vis-Trec/tree/master/Vis-Trec
 
 
-* *What is Vis-Trec? Where can I get it? How to set up?*
 
 ## Vis-Trec Application Steps<img src="https://github.com/mtamannaee/Vis-Trec/blob/master/Images/GUI%20windows.png" height="145%" width="145%">
 ### Step 1 : trec_eval Compilation 
